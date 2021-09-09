@@ -11,5 +11,5 @@
 ![mi_atacazo_artistico](https://user-images.githubusercontent.com/88598193/132762342-96faa08b-37b0-47c0-89a2-9dedc5d646a9.jpg)
 - Bebida dibujada por Londres:
 ![WhatsApp Image 2021-09-09 at 18 05 15](https://user-images.githubusercontent.com/88598193/132762599-9ce5f796-f23a-445b-bab1-bbc36e984a19.jpeg)
-- Bbeida dibujada por Pieri:
+- Bebida dibujada por Pieri:
 ![Captura de Pantalla 2021-09-09 a la(s) 18 27 04](https://user-images.githubusercontent.com/88598193/132765080-7226df77-8f39-4878-8da1-e9efc615d8e3.png)
