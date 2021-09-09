@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Introducción a la programación para el Diseño de interacción </title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+        <link href="style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <header>
+            <h1>Francisca Chong</h1>
+        </header>
+        <main>
+            <p>Soy estudiante de diseño de la Univesidad de Chile, tengo 20 años y soy de Puerto Montt.</p>
+            <p>Escogí este electivo porque me interesa mucho todas las posibilidades que se pueden lograr con la programación, en lo personal, me gustaría poder crear páginas llamativas y en el futuro adentrarme en el mundo de los videojuegos.</p>
+        </main>
+        <footer>
+        </footer>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"></script>
+        <script>
+            var alternativas = ["pizza", "hamburguesa", "bebida", "empanada", "sopaipilla"];
+            function setup() {
+                var lugar = select("footer");
+                var alternativa = random(alternativas);
+                createA("page.html"+"?dibuja="+alternativa, "Dibuja una " + alternativa).parent(lugar);
+                noCanvas();
+            }
+        </script>
+    </body>
+</html>
